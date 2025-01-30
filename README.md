@@ -33,7 +33,51 @@ A comprehensive web-based application designed to manage and streamline the oper
   - User Management
   - Content Management
 
-## 🚀 Quick Start
+## 📸 Screenshots
+
+<details>
+<summary>Click to view screenshots</summary>
+
+### Main Page
+[![Main Page](https://github.com/user-attachments/assets/451707d5-cad9-4db9-b8ed-7982b282f044)](https://github.com/user-attachments/assets/451707d5-cad9-4db9-b8ed-7982b282f044)
+
+### Footer 
+[![User Registration](https://github.com/user-attachments/assets/bd8441f4-598f-4af2-9435-96cb8741121b)](https://github.com/user-attachments/assets/bd8441f4-598f-4af2-9435-96cb8741121b)
+
+### Product
+[![User Login](https://github.com/user-attachments/assets/22c32f75-ae0e-4b2a-b4df-2dc73178ff6f)](https://github.com/user-attachments/assets/22c32f75-ae0e-4b2a-b4df-2dc73178ff6f)
+
+### Catagories
+[![Password Reset](https://github.com/user-attachments/assets/b78b9e44-26c6-44ce-80a1-04e67dc36e49)](https://github.com/user-attachments/assets/b78b9e44-26c6-44ce-80a1-04e67dc36e49)
+
+### Cart
+[![Admin Dashboard](https://github.com/user-attachments/assets/32237254-f341-4a34-a3b2-3b6a1f49a96f)](https://github.com/user-attachments/assets/32237254-f341-4a34-a3b2-3b6a1f49a96f)
+
+### User Cart
+[![Product Management](https://github.com/user-attachments/assets/fca0ea73-736f-407e-ba72-e676b962deca)](https://github.com/user-attachments/assets/fca0ea73-736f-407e-ba72-e676b962deca)
+
+### Shopping Cart
+[![Shopping Cart](https://github.com/user-attachments/assets/ce02f129-388b-467f-bf7f-4aab8e16b19f)](https://github.com/user-attachments/assets/ce02f129-388b-467f-bf7f-4aab8e16b19f)
+
+### Checkout Page
+[![Checkout Page](https://github.com/user-attachments/assets/ae6b5272-cc4d-4086-98c7-fbbb96d87c09)](https://github.com/user-attachments/assets/ae6b5272-cc4d-4086-98c7-fbbb96d87c09)
+
+### Order Confirmation
+[![Order Confirmation](https://github.com/user-attachments/assets/c7433100-ecac-4b4d-895d-e9dfb9a358ba)](https://github.com/user-attachments/assets/c7433100-ecac-4b4d-895d-e9dfb9a358ba)
+
+### Payment Screen
+[![Payment Screen](https://github.com/user-attachments/assets/d883eeeb-2365-437e-8b1d-19808e47d0b5)](https://github.com/user-attachments/assets/d883eeeb-2365-437e-8b1d-19808e47d0b5)
+
+### Order History
+[![Order History](https://github.com/user-attachments/assets/8aee81fa-fb7c-4c88-b0bd-e5c2c62cca63)](https://github.com/user-attachments/assets/8aee81fa-fb7c-4c88-b0bd-e5c2c62cca63)
+
+### Admin Orders Management
+[![Admin Orders Management](https://github.com/user-attachments/assets/5e061a35-c603-4067-8668-85c0d327db65)](https://github.com/user-attachments/assets/5e061a35-c603-4067-8668-85c0d327db65)
+
+### Admin Product Management
+[![Admin Product Management](https://github.com/user-attachments/assets/289ff619-5ea0-40cd-b115-39b1174e3100)](https://github.com/user-attachments/assets/289ff619-5ea0-40cd-b115-39b1174e3100)
+
+</details>
 
 ### Prerequisites
 
