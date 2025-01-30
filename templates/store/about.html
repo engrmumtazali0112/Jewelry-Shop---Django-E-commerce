@@ -1,0 +1,132 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    
+    <style>
+        /* Custom internal CSS */
+        h1 {
+            color: #b8860b;
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            margin-top: 30px;
+        }
+
+        p, ul {
+            color: #6c757d;
+            line-height: 1.8;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            margin-top: 30px;
+        }
+
+        .section ul {
+            padding-left: 20px;
+        }
+
+        .about-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 767px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .container {
+                padding: 20px;
+            }
+
+            .image-section {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            .about-image {
+                width: 150px;
+                height: 150px;
+                margin: 0 auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center text-warning">About Me</h1>
+
+        <!-- Image and Content Section -->
+        <div class="row">
+            <div class="col-md-4 image-section text-center text-md-start">
+                <!-- Replace 'MyPic.jpg' with your actual image path -->
+                <img src="{% static 'images/MyPic.jpg' %}" alt="About Me" class="about-image">
+            </div>
+
+            <div class="col-md-8">
+                <div class="section">
+                    <h2>Work Experience</h2>
+                    <p>I am a skilled web developer with 2-3 years of experience in Python, RESTful APIs, user authentication, and database management, focusing on building responsive web applications with Django and Flask. Additionally, I have expertise in computer vision and deep learning, demonstrated in real-time object detection and AI-driven personality prediction projects. My technical background also includes implementing secure network infrastructure with VLAN segmentation and inter-VLAN routing for enterprise solutions.</p>
+                </div>
+
+                <div class="section">
+                    <h2>Projects</h2>
+                    <ul>
+                        <li><strong>E-Commerce Website Development:</strong> Designed and developed a dynamic e-commerce platform using Django, featuring product browsing, cart management, secure checkout, and order tracking. <a href="#" target="_blank">Link</a></li>
+                        <li><strong>Online Learning Community Platform:</strong> StudyHub is a dynamic Django-based web application that facilitates online learning communities. It allows users to create, join, and participate in topic-based discussion rooms, fostering collaborative learning and knowledge sharing. <a href="#" target="_blank">Link</a></li>
+                        <li><strong>AI-Powered Hand Gesture Drawing System:</strong> A real-time hand tracking and gesture detection project using Python, OpenCV, and Mediapipe. It enables users to draw on a virtual canvas using hand gestures and save their artwork. <a href="#" target="_blank">Link</a></li>
+                        <li><strong>Simple Real Time Object Detection:</strong> Built a real-time object detection system using OpenCV and TensorFlow, demonstrating proficiency in computer vision and deep learning. <a href="#" target="_blank">Link</a></li>
+                        <li><strong>Personality Prediction System via CV Analysis:</strong> Designed an AI-powered system that analyzes facial images to predict personality traits, combining computer vision, deep learning, and natural language processing. <a href="#" target="_blank">Link</a></li>
+                        <li><strong>Titanic Dataset Analysis:</strong> An analysis of the Titanic dataset to predict survival outcomes using Logistic Regression. The project included data preprocessing, EDA, and visualizations (heatmaps, bar plots) to explore factors like gender, class, and fare affecting survival rates. <a href="#" target="_blank">Link</a></li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h2>Certificates</h2>
+                    <ul>
+                        <li><strong>PythonWebDevPro:</strong> Advanced web dev course - Flask, Django, HTML, CSS & Bootstrap certification.</li>
+                        <li><strong>Backend & Frontend Development Internship (DEN):</strong> 12-week intensive program, mastering full-stack development skills.</li>
+                        <li><strong>Python Development (EcodeCamp):</strong> Python internship specializing in data analysis and backend programming.</li>
+                        <li><strong>Python Development (EcodeCamp):</strong> Successfully completed a virtual internship (Sep-Oct 2024) with excellent performance, demonstrating significant contributions to tasks and projects. Certificate ID: ECO2PD011.</li>
+                        <li><strong>DEN Coding Cup:</strong> Awarded for outstanding participation, showcasing curiosity and creativity. Certificate ID: DENP1942.</li>
+                        <li><strong>Inter Universities Programming Challenge (IUPC 2024):</strong> Recognized for active participation in the Inter Universities Programming Challenge organized by the Artificial Intelligence Community of Pakistan.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+{% endblock content %}

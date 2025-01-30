@@ -1,0 +1,81 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% block metatitle %}Contact Us | Jewelry Shop{% endblock metatitle %}</title>
+    <meta name="description" content="Get in touch with us for any inquiries or support.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}">
+    <!-- Other Stylesheets -->
+    <link rel="stylesheet" href="{% static 'css/style.default.css' %}">
+    <link rel="stylesheet" href="{% static 'css/custom.css' %}">
+
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="{% static 'img/favicon.png' %}">
+
+  </head>
+  <body>
+    <div class="page-holder">
+      {% include 'navbar.html' %}
+
+      {% block content %}
+        <section class="py-5 bg-light">
+          <div class="container">
+            <h1 class="text-center mb-4">Contact Us</h1>
+            <p class="text-center mb-5">If you have any questions or need assistance, feel free to reach out to us.</p>
+
+            <!-- Contact Form Section -->
+            <div class="row">
+              <div class="col-md-8 offset-md-2">
+                <div class="card">
+                  <div class="card-body">
+                    <form method="post">
+                      {% csrf_token %}
+                      {% if messages %}
+                        <div class="alert alert-info">
+                          {% for message in messages %}
+                            <p>{{ message }}</p>
+                          {% endfor %}
+                        </div>
+                      {% endif %}
+                      <div class="form-group">
+                        <label for="id_name">Your Full Name:</label>
+                        {{ form.name }}
+                      </div>
+                      <div class="form-group">
+                        <label for="id_email">Email:</label>
+                        {{ form.email }}
+                      </div>
+                      <div class="form-group">
+                        <label for="id_phonenumber">Phone Number:</label>
+                        {{ form.phonenumber }}
+                      </div>
+                      <div class="form-group">
+                        <label for="id_subject">Subject:</label>
+                        {{ form.subject }}
+                      </div>
+                      <div class="form-group">
+                        <label for="id_message">Message:</label>
+                        {{ form.message }}
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      {% endblock content %}
+
+      {% block payment-gateway %}{% endblock payment-gateway %}
+      
+      {% include 'footer.html' %}
+    </div>
+  </body>
+</html>
