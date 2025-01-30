@@ -6,6 +6,12 @@ A comprehensive web-based application designed to manage and streamline the oper
 ![Python](https://img.shields.io/badge/python-3.x-blue.svg)
 ![Django](https://img.shields.io/badge/django-5.0-green.svg)
 
+## Live Demo
+
+Check out the live demo of the Jewelry Shop platform:
+
+![Live Demo](https://github.com/engrmumtazali0112/Jewelry-Shop---Django-E-commerce/blob/main/IMG_9022-ezgif.com-video-to-gif-converter.gif)
+
 ## ✨ Features
 
 - 🔐 User Authentication System
